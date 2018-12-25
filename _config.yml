@@ -1,1 +1,11 @@
+---
 theme: jekyll-theme-minimal
+version: 3.8.5
+name: Ozan Blog
+description: The Manifestation of brain stuck
+repository: https://github.com/OzanLab/blog
+url: https://ozan.web.id
+collections:
+  docs:
+    permalink: "/:path/"
+    output: true		
