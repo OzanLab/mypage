@@ -1,6 +1,6 @@
 <div class="col-12 col-sm-6">
 	<h3 class="ob-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-	<span class="ob-post-meta"> {{ page.date | date: "%A"}}, {{ post.date | date_to_string }} {{ site.author.name }}</span>
+	<span class="ob-post-meta"> {{ page.date | date: "%A"}}, {{ post.date | date_to_string }} {{ site.author }}</span>
 	<p class="ob-post-content">
 		{{ post.content | strip_html | truncatewords:50 }}<span class="ob-more"><a href="#">Read More &raquo;</a></span>
 	</p>
