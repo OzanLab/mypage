@@ -5,6 +5,8 @@ name: Ozan Blog
 description: The Manifestation of brain stuck
 repository: https://github.com/OzanLab/blog
 url: https://ozan.web.id
+author:
+	name: Slamet Fauzan
 collections:
   docs:
     permalink: "/:path/"
