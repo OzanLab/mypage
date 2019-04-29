@@ -6,6 +6,7 @@ description: The Manifestation of brain stuck
 repository: https://github.com/OzanLab/blog
 url: https://ozan.web.id
 author: Slamet Fauzan
+theme: jekyll-theme-minimal
 collections:
   docs:
     permalink: "/:path/"
