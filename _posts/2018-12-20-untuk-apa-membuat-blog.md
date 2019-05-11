@@ -1,6 +1,6 @@
 ---
 title: Untuk Apa Membuat Blog ini?
-permalink: /artikel/untuk-apa-membuat-blog
+permalink: /untuk-apa-membuat-blog/
 categories: [blogging]
 tags: [gapenting]
 ---
