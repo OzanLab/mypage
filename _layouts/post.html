@@ -3,11 +3,18 @@
 layout: default
 
 ---
-<h2>{{ page.title }}</h2>	
-<strong>{{ page.date | date: "%A"}}, {{ page.date | date_to_string }} — {{ site.author }}</strong>
 
-	<p>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+	<header class="post-header">
+		<h2 class="post-title p-name" itemprop="name headline">{{ page.title }}</h2>
+		<p class="post-meta"> 
+		<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_string }}</time> — <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ site.author | escape }}</span></span>
+		</p>
+	</header>
+
+	<div class="post-content e-content" itemprop="articleBody">
 		{{ content }}
+	</div>
 
-	</p>
+</article>

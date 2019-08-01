@@ -3,7 +3,11 @@ layout: default
 title: Ozan Blog
 overview: true
 permalink: /
----	
-      {% for post in site.posts %}			
-	{% include render_posts.html %}	
-	{% endfor %}	
+---
+<div class="home">
+	<ul class="post-list">
+	{% for post in site.posts %}	
+		{% include render_posts.html %}	
+	{% endfor %}
+	</ul>
+</div>
