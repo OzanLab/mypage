@@ -2,8 +2,8 @@
 title: Untuk Apa Membuat Blog ini?
 layout: post
 permalink: /untuk-apa-membuat-blog/
-categories: [blogging]
-tags: [gapenting]
+categories: [hobi]
+tags: [blogging]
 ---
 
 Selamat datang di blog baru saya!
