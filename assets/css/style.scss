@@ -3,3 +3,42 @@
 ---
 
 @import "minima";
+$bg-fb: #3b5998;
+$bg-tw: #00aced;
+.site-header {
+	border-top:none;
+}
+
+/**
+*Social share
+*/
+.minima-share {
+	display:block;
+	padding-top:$spacing-unit;
+	
+}
+.share-title {
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom:4px;
+}
+.fb-share {
+	background-color:$bg-fb;
+	
+}
+.tw-share {
+	background-color:$bg-tw;
+}
+.fb-share,.tw-share {
+	padding:7px;
+	color:#fff;
+	display:inline-block;
+	font-weight:bold;
+	&:hover {
+		color:#fff;
+		text-shadow:1px 1px #fff;
+	}
+	&:visited {
+		color:#fff;
+	}
+}
