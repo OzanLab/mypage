@@ -5,6 +5,10 @@ repository: https://github.com/OzanLab/blog
 url: https://ozan.web.id
 author: Slamet Fauzan
 timezone: Asia/Jakarta
+twitter:
+        username: ozanblacknes
+        card: summary
+logo: "assets/img/logo.png"
 markdown: kramdown
 theme: minima
 collections:
@@ -28,6 +32,7 @@ defaults:
 
 plugins:
  - jekyll-feed
+ - jekyll-seo-tag
 
 exclude:
  - ".gitignore"
