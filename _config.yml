@@ -8,7 +8,7 @@ timezone: Asia/Jakarta
 twitter:
         username: ozanblacknes
         card: summary
-logo: "assets/img/logo.png"
+logo: "/assets/img/logo.png"
 markdown: kramdown
 theme: minima
 collections:
