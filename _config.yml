@@ -29,6 +29,10 @@ defaults:
         type: pages
   values:
         layout: page
+- scope:
+        path: ''
+  values: 
+        image: "/assets/img/logo.png"
 
 plugins:
  - jekyll-feed
