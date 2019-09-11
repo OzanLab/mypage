@@ -5,8 +5,21 @@
 @import "minima";
 $bg-fb: #3b5998;
 $bg-tw: #00aced;
+$text-link: #2262B5;
 .site-header {
 	border-top:none;
+}
+a {
+	color:$text-link;
+	&:visited {
+		color:$text-link;
+	}
+}
+.foot-link {
+	color:$text-color;
+	&:visited {
+		color:$text-color;
+	}
 }
 
 /**
